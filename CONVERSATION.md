@@ -57,3 +57,30 @@ result = "hello"  "world"
 ```
 
 What is the operator used to concatenate these two strings?
+
+---
+## 2026-10-07 13:26, in .
+
+**Me:** how to change a string to lowercase and uppercase and reversed
+
+**Tutor:**
+
+Concept: Changing a string’s case and reversing it.
+
+```python
+def change_case_and_reverse(text):
+    # TODO: convert text to lowercase
+    lower_text = # your code here
+    # TODO: convert lower_text to uppercase
+    upper_text = # your code here
+    # TODO: reverse upper_text
+    reversed_text = # your code here
+    return lower_text, upper_text, reversed_text
+
+# Example usage (toy data)
+sample = "Hello"
+low, up, rev = change_case_and_reverse(sample)
+print(low, up, rev)
+```
+
+Which built-in string method reverses the order of characters?

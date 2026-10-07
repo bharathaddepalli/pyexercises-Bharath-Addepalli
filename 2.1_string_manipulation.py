@@ -24,10 +24,16 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four transformations, and when each is useful:
+# 1. In:  The user enters a sentence.
+# 2. Process: The program transforms the sentence into uppercase, lowercase and reversed form.
+# 3. Out: The program displays four different versions of the sentence.
+# 4. My four transformations, and when each is useful: I chose a sentence because a user may enter text into a form.The program can then transform and display the text in different ways.
 
 
 # Your code below
+sentence = input("Enter a sentence: ")
+
+print("Original:", sentence)
+print("Uppercase:", sentence.upper())
+print("Lowercase:", sentence.lower())
+print("Reversed:", sentence[::-1])
