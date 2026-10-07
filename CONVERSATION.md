@@ -84,3 +84,50 @@ print(low, up, rev)
 ```
 
 Which built-in string method reverses the order of characters?
+
+---
+## 2026-10-07 13:32, in .
+
+**Me:** how to perform Arthemetic operations
+
+**Tutor:**
+
+Arithmetic operations in Python use standard operators: +, -, *, /, //, %, **.
+
+```python
+# TODO: write a function that takes two numbers and returns their sum, difference, product, quotient, integer division, remainder, and power.
+def arithmetic_ops(a, b):
+    return {
+        "sum": a + b,
+        "difference": a - b,
+        "product": a * b,
+        "quotient": a / b,
+        "integer_division": a // b,
+        "remainder": a % b,
+        "power": a ** b
+    }
+```
+
+Which operator gives the integer division result?
+
+---
+## 2026-10-07 13:35, in .
+
+**Me:** how to check if a number is odd or even
+
+**Tutor:**
+
+Concept: Use the modulus operator to test if a number is odd or even.
+
+Pattern:
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    pass
+
+# Example usage (not part of the function)
+print(is_even(4))  # Should print True
+print(is_even(5))  # Should print False
+```
+
+Question: Which operator checks the remainder after division?
