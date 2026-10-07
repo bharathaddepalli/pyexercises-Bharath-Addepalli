@@ -223,3 +223,45 @@ channel_ctr = {
 ```
 
 Which function lets you look up the CTR for the key `"search"`?
+
+---
+## 2026-10-07 14:16, in .
+
+**Me:** What does enumerate() do in Python
+
+**Tutor:**
+
+The enumerate() function adds a counter to an iterable (like a list) and returns it as an enumerate object.
+
+```python
+# Toy list
+items = ['apple', 'banana', 'cherry']
+
+# TODO: Use enumerate() to loop over items with index
+for index, value in ______(items):
+    print(f"Index {index}: {value}")
+```
+
+What is the second argument you can pass to enumerate() to start the counter at 1 instead of 0?
+
+---
+## 2026-10-07 14:18, in .
+
+**Me:** How do we make the loop stop when the user enters 0
+
+**Tutor:**
+
+A loop that stops when a sentinel value is entered is called a sentinel loop.
+
+```python
+def sentinel_loop():
+    total = 0
+    while True:
+        value = int(input("Enter a number (0 to stop): "))
+        if value == 0:
+            break
+        total += value
+    return total
+```
+
+What loop control statement is used to exit the loop immediately when the sentinel is detected?
